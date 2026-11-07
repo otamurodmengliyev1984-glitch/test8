@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Robo IT Akademiyasi · Toshkent</title>
+<script type="text/javascript" nonce="92eba42f6f14400b85f37fdfa35" src="//local.adguard.org?ts=1794052699326&amp;type=content-script&amp;dmn=aec4a02b-6931-455d-9307-f1c5f4e431bb.frame.claudeusercontent.com&amp;pth=%2F_f%2F1794055234-cb9e%2F_src%2Findex.html%3F__frame_t%3DlluLlG6AYZ8l8b9eZ6thz8oU.78c795ec-dad4-473a-8eff-41645ebab116.548af755-f665-4406-8910-552b77fbf879.1794059084&amp;app=chrome.exe&amp;css=3&amp;js=1&amp;rel=1&amp;rji=1&amp;sbe=1"></script>
+<script type="text/javascript" nonce="92eba42f6f14400b85f37fdfa35" src="//local.adguard.org?ts=1794052699326&amp;name=AdGuard%20Assistant&amp;name=AdGuard%20Extra&amp;name=AdGuard%20Popup%20Blocker&amp;type=user-script"></script><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#060b02;--card:rgba(255,255,255,.05);--line:rgba(255,255,255,.12);--tx:#f3f6ff;--dim:#9aa3bd;--bl:#a3e635;--bl2:#65a30d;--or:#22d3ee;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 20% 10%,#1a3305 0,transparent 60%),var(--bg);color:var(--tx);font-family:Manrope,"Segoe UI",Arial,sans-serif;line-height:1.5;overflow-x:hidden}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backdrop-filter:blur(10px);background:rgba(4,6,15,.6)}
+.nav{display:flex;align-items:center;gap:22px;height:60px}
+.logo{font-weight:800;font-style:italic;font-size:26px;letter-spacing:1px;transform:skewX(-8deg)}
+.nav nav{display:flex;gap:22px;color:var(--dim);font-weight:600;font-size:14px}
+.nav nav a:hover{color:var(--tx)}
+.sp{flex:1}
+.lang{display:flex;border:1px solid var(--line);border-radius:10px;padding:3px;gap:3px}
+.lang button{border:0;background:transparent;color:var(--dim);font:800 12px Manrope,sans-serif;padding:7px 10px;border-radius:7px;cursor:pointer}
+.lang button.on{background:var(--bl);color:#fff;box-shadow:0 0 14px rgba(163,230,53,.6)}
+.tel{font-weight:800;font-size:14px}
+.btn{display:inline-block;border:0;cursor:pointer;font:800 14px Manrope,sans-serif;color:#fff;background:linear-gradient(180deg,#aee94d,var(--bl2));padding:12px 20px;border-radius:12px;box-shadow:0 8px 30px rgba(101,163,13,.45);transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 12px 36px rgba(101,163,13,.65)}
+.btn.g{background:rgba(255,255,255,.04);border:1px solid var(--line);box-shadow:none}
+.hero{position:relative;padding:70px 0 90px;min-height:700px}
+.scene{position:absolute;left:0;right:0;top:20px;width:100%;max-width:900px;margin:0 auto;opacity:.9;pointer-events:none}
+.hero .wrap{position:relative;display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:center}
+.badge{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(163,230,53,.08);border-radius:999px;padding:9px 16px;font:800 11px Manrope,sans-serif;letter-spacing:2px;color:#e3f8c2}
+.badge i{width:6px;height:6px;border-radius:50%;background:var(--bl);box-shadow:0 0 8px var(--bl)}
+h1{font-size:clamp(36px,5.2vw,58px);line-height:1.08;margin:22px 0 18px;font-weight:800}
+h1 em{font-style:normal;background:linear-gradient(90deg,#c3ef7c,#d6f4a4);-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{color:var(--dim);font-size:17px;max-width:520px}
+.cta{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap}
+.panel{background:linear-gradient(180deg,rgba(255,255,255,.08),rgba(255,255,255,.03));border:1px solid var(--line);border-radius:26px;padding:14px;backdrop-filter:blur(14px)}
+.promo{display:grid;grid-template-columns:auto 1fr;gap:12px;align-items:center;border:1px solid var(--line);border-radius:16px;padding:12px;background:rgba(0,0,0,.2)}
+.pct{background:linear-gradient(135deg,#59def2,#22d3ee);color:#3a1a00;font-weight:800;font-size:20px;padding:14px 12px;border-radius:14px}
+.promo b{font-size:14px;display:block}.promo small{color:var(--dim)}
+.cd{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;border-top:1px dashed var(--line);padding-top:10px;font-size:12px;font-weight:700;color:var(--dim)}
+.cd div{display:flex;gap:6px}
+.cd span{width:42px;text-align:center;border:1px solid var(--line);border-radius:10px;padding:4px 0;color:var(--tx);font-size:16px;font-weight:800;line-height:1.1}
+.cd span small{display:block;font-size:8px;color:var(--dim)}
+.panel h3{margin:18px 6px 12px;font-size:21px}
+.panel input,.panel select{width:100%;margin-bottom:10px;background:rgba(0,0,0,.25);border:1px solid var(--line);border-radius:12px;padding:15px 14px;color:var(--tx);font:600 14px Manrope,sans-serif}
+.panel input:focus,.panel select:focus{outline:2px solid var(--bl);border-color:transparent}
+.panel .btn{width:100%;padding:16px}
+.ticks{display:flex;gap:16px;justify-content:center;margin:12px 0 4px;font-size:12px;font-weight:700;color:var(--dim)}
+.ticks span::before{content:"✓ ";color:var(--bl)}
+.note{font-size:11px;color:var(--dim);text-align:center;margin:6px 0 4px}
+#ok{display:none;text-align:center;padding:14px;color:#6dffb0;font-weight:700}
+section.blk{padding:70px 0}
+.blk h2{font-size:32px;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--bl);box-shadow:0 0 30px rgba(163,230,53,.2)}
+.card h4{margin:6px 0;font-size:19px}.card p{color:var(--dim);margin:0 0 12px;font-size:14px}
+.card .pr{color:var(--or);font-weight:800}
+.ic{font-size:30px}
+footer{border-top:1px solid var(--line);padding:30px 0 40px;color:var(--dim);font-size:14px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;padding:10px 0 60px}
+.stat{text-align:center;padding:22px;border:1px solid var(--line);border-radius:20px;background:var(--card)}
+.stat b{display:block;font-size:40px;font-weight:800;background:linear-gradient(90deg,#c3ef7c,var(--or));-webkit-background-clip:text;background-clip:text;color:transparent}
+.stat span{color:var(--dim);font-size:13px;font-weight:700}
+.steps{counter-reset:s}
+.steps .card::before{counter-increment:s;content:"0" counter(s);font:800 34px Manrope,sans-serif;color:var(--or);display:block}
+.game{text-align:center}
+.lt{display:flex;gap:14px;margin:20px auto;padding:18px;background:#000;border:1px solid var(--line);border-radius:20px;width:fit-content}
+.lt i{width:44px;height:44px;border-radius:50%;background:#2a0a0e;box-shadow:inset 0 0 8px #000;transition:.1s}
+.lt i.on{background:#ff2a3d;box-shadow:0 0 24px #ff2a3d}
+#rs{font-size:28px;font-weight:800;min-height:42px;margin-bottom:12px}
+.faq details{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 20px;margin-bottom:10px}
+.faq summary{cursor:pointer;font-weight:800;list-style:none}
+.faq summary::after{content:"+";float:right;color:var(--bl);font-size:20px}
+.faq details[open] summary::after{content:"−"}
+.faq p{color:var(--dim);margin:10px 0 0}
+.who{color:var(--tx);font-weight:800;font-size:13px}
+.band{margin:30px 0 20px;text-align:center;padding:50px 20px;border-radius:28px;border:1px solid var(--line);background:radial-gradient(500px 200px at 50% 0,rgba(163,230,53,.3),transparent),var(--card)}
+.band h2{margin-bottom:20px}
+.rv{opacity:0;transform:translateY(24px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.nav nav,.tel{display:none}.hero{padding-top:40px}.scene{opacity:.45;top:0}}
+.lang{display:none}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+  <a class="logo" href="#top">ROBO</a>
+  <nav><a href="#kurslar" data-i="n1">Kurslar</a><a href="#jamoa" data-i="n2">Jamoa</a><a href="#blog" data-i="n3">Blog</a><a href="#manzil" data-i="n4">Manzil</a></nav>
+  <div class="sp"></div>
+  <div class="lang"><button class="on" data-l="uz">UZ</button><button data-l="ru">RU</button></div>
+  <a class="tel" href="tel:+998781112233">+998 78 111 22 33</a>
+  <a class="btn" href="#form" data-i="cta">Shartnoma olish</a>
+</div></header>
+
+<main id="top">
+<div class="hero">
+  <svg class="scene" viewBox="0 0 900 520" aria-hidden="true">
+    <defs><linearGradient id="gr" x1="0" x2="1"><stop offset="0" stop-color="#a3e635" stop-opacity=".1"/><stop offset=".5" stop-color="#a3e635"/><stop offset="1" stop-color="#a3e635" stop-opacity=".1"/></linearGradient></defs>
+    <g fill="none" stroke="url(#gr)" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="1 7"><rect x="340" y="190" width="220" height="220" rx="16"/><rect x="390" y="240" width="120" height="120" rx="8"/><path d="M370 190 V150 M370 410 V450"/><path d="M340 220 H300 M560 220 H600"/><path d="M410 190 V150 M410 410 V450"/><path d="M340 260 H300 M560 260 H600"/><path d="M450 190 V150 M450 410 V450"/><path d="M340 300 H300 M560 300 H600"/><path d="M490 190 V150 M490 410 V450"/><path d="M340 340 H300 M560 340 H600"/><path d="M530 190 V150 M530 410 V450"/><path d="M340 380 H300 M560 380 H600"/></g>
+    <g fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 6"><path d="M300 150 H250 V300 H300"/></g>
+    <text x="450" y="80" fill="#e6eeff" font-size="15" font-weight="700" text-anchor="middle">Robo · Toshkent</text>
+    <text x="450" y="100" fill="#8da0d0" font-size="11" text-anchor="middle">5V · 16 MHz</text>
+  </svg>
+  <div class="wrap">
+    <div>
+      <div class="badge"><i></i><span data-i="badge">ROBOTOTEXNIKA AKADEMIYASI · TOSHKENT</span></div>
+      <h1><span data-i="h1a">Robotlar yaratishni</span> <em data-i="h1b">amalda</em><br><span data-i="h1c">o‘rgatamiz!</span></h1>
+      <p class="lead" data-i="lead">Toshkentda 3D printerlar, Arduino to‘plamlari va tajribali muhandislar. Kod yozing va o‘z robotingizni jonlantiring!</p>
+      <div class="cta"><a class="btn g" href="#form" data-i="cta">Shartnoma olish</a><a class="btn g" href="#kurslar" data-i="seec">Kurslarni ko‘rish</a></div>
+    </div>
+    <div class="panel" id="form">
+      <div class="promo">
+        <div class="pct">−50%</div>
+        <div><b data-i="promo">Barcha kurslarga −50% — 30-noyabrgacha</b><small data-i="promo2">Ariza qoldiring va o‘qishni yarim narxda boshlang</small></div>
+        <div class="cd"><span data-i="end">Aksiya tugashiga:</span>
+          <div><span id="d">00<small data-i="d">KUN</small></span><span id="h">00<small data-i="h">SOAT</small></span><span id="m">00<small data-i="m">DAQ</small></span><span id="s">00<small data-i="s">SON</small></span></div></div>
+      </div>
+      <h3 data-i="ft">Bepul konsultatsiya oling</h3>
+      <form id="f">
+        <input id="nm" required data-ph="phn" placeholder="Ism va familiya">
+        <input id="ph" required value="+998 " inputmode="tel">
+        <select id="cs" required><option value="" data-i="sel">— kursni tanlang —</option><option>Arduino</option><option>Python va AI</option><option>3D modellash</option></select>
+        <button class="btn" type="submit" data-i="send">Konsultatsiya olish</button>
+      </form>
+      <div id="ok" data-i="ok">Rahmat! Tez orada siz bilan bog‘lanamiz.</div>
+      <div class="ticks"><span data-i="t1">1-dars bepul</span><span data-i="t2">100% pul qaytarish kafolati</span></div>
+      <p class="note" data-i="note">Tugmani bosib, shaxsiy ma’lumotlarni qayta ishlashga roziman.</p>
+    </div>
+  </div>
+</div>
+
+<section class="blk" id="kurslar"><div class="wrap">
+  <h2 data-i="k">Kurslar</h2>
+  <div class="grid">
+    <div class="card"><div class="ic">🤖</div><h4>Arduino</h4><p data-i="k1">Datchiklar, motorlar va birinchi loyihalar.</p><span class="pr">1 200 000 so‘m</span></div>
+    <div class="card"><div class="ic">🧠</div><h4>Python va AI</h4><p data-i="k2">Dasturlash va mashinaviy o‘rganish asoslari.</p><span class="pr">2 800 000 so‘m</span></div>
+    <div class="card"><div class="ic">🖨️</div><h4>3D modellash</h4><p data-i="k3">Loyihalash, chop etish va prototip yaratish.</p><span class="pr">2 000 000 so‘m</span></div>
+  </div>
+</div></section>
+
+<section class="blk" id="jamoa"><div class="wrap">
+  <h2 data-i="j">Jamoa</h2>
+  <div class="grid">
+    <div class="card"><h4>Rustam Karimov</h4><p data-i="j1">Bosh trener · 12 yillik tajriba</p></div>
+    <div class="card"><h4>Dilnoza Aliyeva</h4><p data-i="j2">Telemetriya muhandisi</p></div>
+    <div class="card"><h4>Timur Sobirov</h4><p data-i="j3">Drift instruktori</p></div>
+  </div>
+</div></section>
+
+<section class="blk" id="blog"><div class="wrap">
+  <h2>Blog</h2>
+  <div class="grid">
+    <div class="card"><h4 data-i="b1">Qanday qilib to‘g‘ri burilish chizig‘ini topish mumkin</h4><p>5 min</p></div>
+    <div class="card"><h4 data-i="b2">Simulyator va haqiqiy trassa: farq nimada?</h4><p>7 min</p></div>
+  </div>
+</div></section>
+<section class="blk"><div class="wrap"><div class="stats">
+<div class="stat rv"><b data-n="1200" data-s="+">0</b><span data-i="s1">Bitiruvchilar</span></div>
+<div class="stat rv"><b data-n="12">0</b><span data-i="s2">Yillik tajriba</span></div>
+<div class="stat rv"><b data-n="18">0</b><span data-i="s3">Mentorlar</span></div>
+<div class="stat rv"><b data-n="98" data-s="%">0</b><span data-i="s4">Mamnun o‘quvchilar</span></div>
+</div></div></section>
+
+<section class="blk" id="jarayon"><div class="wrap">
+<h2 data-i="p">Qanday o‘qiymiz</h2>
+<div class="grid steps">
+<div class="card rv"><h4 data-i="p1">Ariza</h4><p data-i="p1d">Formani to‘ldiring, menejer 15 daqiqada bog‘lanadi.</p></div>
+<div class="card rv"><h4 data-i="p2">Sinov darsi</h4><p data-i="p2d">Bepul birinchi dars va daraja baholash.</p></div>
+<div class="card rv"><h4 data-i="p3">Mashg‘ulotlar</h4><p data-i="p3d">Haftasiga 2–3 marta: nazariya va amaliyot.</p></div>
+<div class="card rv"><h4 data-i="p4">Final</h4><p data-i="p4d">Kurs yakunida imtihon va sertifikat.</p></div>
+</div></div></section>
+
+<section class="blk game" id="test"><div class="wrap">
+<h2 data-i="g">Reaksiya testi</h2>
+<p class="lead" style="margin:0 auto" data-i="g2">Chiroqlar o‘chganda bosing — reaksiyangizni sinab ko‘ring.</p>
+<div class="lt"><i></i><i></i><i></i><i></i><i></i></div>
+<div id="rs">— ms</div>
+<button class="btn" id="rb" type="button">START</button>
+</div></section>
+
+<section class="blk" id="sharhlar"><div class="wrap">
+<h2 data-i="r">Sharhlar</h2>
+<div class="grid">
+<div class="card rv"><p data-i="r1">Trenerlar juda e’tiborli, natijani birinchi oyda ko‘rdim.</p><span class="who">Jasur M.</span></div>
+<div class="card rv"><p data-i="r2">Dastur zamonaviy, jihozlar yuqori sifatli.</p><span class="who">Madina S.</span></div>
+<div class="card rv"><p data-i="r3">Noldan boshladim, hozir mustaqil ishlayapman.</p><span class="who">Akmal R.</span></div>
+</div></div></section>
+
+<section class="blk faq" id="faq"><div class="wrap">
+<h2 data-i="q">Savol-javoblar</h2>
+<details><summary data-i="q1">Oldingi tajriba kerakmi?</summary><p data-i="a1">Yo‘q, kurslar noldan boshlanadi, 14 yoshdan qatnashish mumkin.</p></details>
+<details><summary data-i="q2">Jihozlar beriladimi?</summary><p data-i="a2">Ha, kerakli jihozlar akademiya tomonidan beriladi.</p></details>
+<details><summary data-i="q3">Pulni qaytarish qanday ishlaydi?</summary><p data-i="a3">Birinchi haftada rozi bo‘lmasangiz, to‘lovning 100% qaytariladi.</p></details>
+</div></section>
+
+<section class="blk"><div class="wrap"><div class="band rv">
+<h2 data-i="fc">Birinchi darsga yoziling</h2>
+<a class="btn" href="#form" data-i="cta">Shartnoma olish</a>
+</div></div></section>
+</main>
+
+<footer id="manzil"><div class="wrap">
+  <b data-i="addr">Manzil:</b> Toshkent, Yunusobod tumani, Amir Temur ko‘chasi 1 · +998 78 111 22 33 · © 2026 Robo
+</div></footer>
+
+<script>
+"use strict";
+const T={
+uz:{},
+ru:{n1:"Курсы",n2:"Команда",n3:"Блог",n4:"Адрес",cta:"Заключить договор",badge:"АКАДЕМИЯ ГОНОК · ТАШКЕНТ",h1a:"Мастерству гонок",h1b:"учим на практике",h1c:"",lead:"Занятия на ташкентском автодроме с симуляторами, телеметрией и профессиональными тренерами. Почувствуйте настоящую скорость и присоединяйтесь к чемпионам!",seec:"Смотреть курсы",promo:"−50% на все курсы — до 30 ноября",promo2:"Оставьте заявку и начните обучение за полцены",end:"До конца акции:",d:"ДНЕЙ",h:"ЧАС",m:"МИН",s:"СЕК",ft:"Получите бесплатную консультацию",sel:"— выберите курс —",send:"Получить консультацию",ok:"Спасибо! Мы скоро свяжемся с вами.",t1:"1-й урок бесплатно",t2:"Гарантия возврата 100%",note:"Нажимая кнопку, я соглашаюсь на обработку персональных данных.",k:"Курсы",k1:"Для начинающих: трасса, повороты и основы безопасности.",k2:"Анализ телеметрии, тактика и управление скоростью.",k3:"Техника контролируемого заноса и баланс автомобиля.",j:"Команда",j1:"Главный тренер · 12 лет опыта",j2:"Инженер по телеметрии",j3:"Инструктор по дрифту",b1:"Как найти правильную траекторию поворота",b2:"Симулятор и настоящая трасса: в чём разница?",addr:"Адрес:",phn:"Имя и фамилия"}
+};
+Object.assign(T.ru,{s1:"Выпускников",s2:"Лет опыта",s3:"Симуляторов",s4:"Довольных учеников",p:"Как мы учим",p1:"Заявка",p1d:"Заполните форму, менеджер свяжется за 15 минут.",p2:"Пробный урок",p2d:"Бесплатный первый урок на симуляторе и оценка уровня.",p3:"Занятия",p3d:"2–3 раза в неделю: теория, симулятор, трасса.",p4:"Гонка",p4d:"В конце курса настоящее соревнование и сертификат.",g:"Тест реакции",g2:"Нажмите, когда огни погаснут — проверьте старт как в F1.",r:"Отзывы",r1:"За три месяца улучшил своё время в картинге на 9 секунд. Тренеры очень внимательные.",r2:"Симуляторы очень близки к реальности. Анализ телеметрии показал мои ошибки.",r3:"Начал дрифт с нуля, сейчас участвую в соревнованиях.",q:"Вопросы и ответы",q1:"Нужны ли водительские права?",a1:"Для картинга не обязательны, участвовать можно с 14 лет.",q2:"Выдают ли экипировку?",a2:"Да, шлем, комбинезон и перчатки предоставляет академия.",q3:"Как работает возврат денег?",a3:"Если в первую неделю не понравится, вернём 100% оплаты.",fc:"Запишитесь на первый урок"});
+document.querySelectorAll("[data-i]").forEach(e=>{T.uz[e.dataset.i]=e.textContent});
+function setLang(l){
+  document.documentElement.lang=l;
+  document.querySelectorAll("[data-i]").forEach(e=>{const v=T[l][e.dataset.i];if(v!==undefined)e.textContent=v});
+  const p=document.getElementById("nm");p.placeholder=l==="ru"?T.ru.phn:"Ism va familiya";
+  document.querySelectorAll(".lang button").forEach(b=>b.classList.toggle("on",b.dataset.l===l));
+}
+document.querySelectorAll(".lang button").forEach(b=>b.onclick=()=>setLang(b.dataset.l));
+const end=new Date(2026,10,30,23,59,59).getTime();
+function pad(n){return String(n).padStart(2,"0")}
+function cd(){
+  let t=Math.max(0,end-Date.now())/1000;
+  const v={d:Math.floor(t/86400),h:Math.floor(t%86400/3600),m:Math.floor(t%3600/60),s:Math.floor(t%60)};
+  for(const k in v){const el=document.getElementById(k);el.firstChild.nodeValue=pad(v[k])}
+}
+cd();setInterval(cd,1000);
+function count(el){
+  const n=+el.dataset.n,s=el.dataset.s||"",t0=performance.now();
+  (function f(t){const k=Math.min(1,(t-t0)/1400);el.textContent=Math.round(n*(1-Math.pow(1-k,3)))+s;if(k<1)requestAnimationFrame(f)})(t0);
+}
+const io="IntersectionObserver" in window?new IntersectionObserver(es=>es.forEach(x=>{
+  if(!x.isIntersecting)return;
+  x.target.classList.add("in");
+  const b=x.target.querySelector("[data-n]");if(b)count(b);
+  io.unobserve(x.target);
+}),{threshold:.2}):null;
+document.querySelectorAll(".rv").forEach(e=>io?io.observe(e):e.classList.add("in"));
+
+const lights=[...document.querySelectorAll(".lt i")],rs=document.getElementById("rs"),rb=document.getElementById("rb");
+let gs=0,g0=0,gt=[],best=null;
+function clr(){gt.forEach(clearTimeout);gt=[];lights.forEach(l=>l.className="")}
+rb.onclick=()=>{
+  if(gs===0){
+    clr();gs=1;rs.textContent="● ● ● ● ●";rb.textContent="…";
+    lights.forEach((l,i)=>gt.push(setTimeout(()=>l.className="on",600*(i+1))));
+    gt.push(setTimeout(()=>{
+      lights.forEach(l=>l.className="");g0=performance.now();gs=2;rs.textContent="GO!";rb.textContent="GO!";
+    },3000+500+Math.random()*2000));
+  }else if(gs===1){
+    clr();gs=0;rs.textContent="FALSE START";rb.textContent="START";
+  }else{
+    const ms=Math.round(performance.now()-g0);
+    best=best===null?ms:Math.min(best,ms);
+    rs.textContent=ms+" ms · best "+best+" ms";gs=0;rb.textContent="START";
+  }
+};
+
+document.getElementById("f").onsubmit=e=>{
+  e.preventDefault();
+  e.target.style.display="none";
+  document.getElementById("ok").style.display="block";
+};
+</script>
+</body>
+</html>
